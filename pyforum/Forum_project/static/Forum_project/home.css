@@ -1,0 +1,80 @@
+
+
+body {
+    background-color:white;
+    
+}
+
+.postHeadline {
+    padding: 30px;
+    border-style: initial;
+   
+}
+
+.linkContainer{
+    background-color:#f0f0f0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:  repeat(12, 1fr);
+    grid-template-rows: minmax(50px, auto);
+}
+
+.box1 {
+    grid-column-start: 3;
+    grid-column-end:11;
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+.box2 {
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color:green;
+}
+
+a:visited {
+    text-decoration: none;
+    color:green;
+}
+
+a:hover {
+    text-decoration: wavy;
+    color:green;
+}
+
+a:active {
+    text-decoration: wavy;
+    color:green;
+}
+
+.navUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.navLI {
+    float: left;
+}
+
+.navA {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navA:hover {
+    background-color: #111;
+}
